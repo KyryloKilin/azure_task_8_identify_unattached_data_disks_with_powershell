@@ -1,23 +1,14 @@
 {
-
-[
-  {
-    "ResourceGroupName": "mate-azure-task-5",
-    "Name": "todoapp-data-disk",
-    "DiskState": "Unattached",
-    "ManagedBy": null,
-    "Location": "eastus",
-    "Sku": {
-      "Name": "Standard_LRS",
-      "Tier": "Standard"
-    },
-    "DiskSizeGB": 10,
-    "TimeCreated": "2025-12-13T11:19:58.8962058Z",
-    "Id": "/subscriptions/07c4c978-c388-43ce-bc57-bec055b1b62f/resourceGroups/mate-azure-task-5/providers/Microsoft.Compute/disks/data-disk-unattached"
-  }
-]
-
-
-
-
-
+  "ResourceGroupName": "mate-azure-task-5",
+  "Name": "todoapp-data-disk",
+  "DiskState": "Unattached",
+  "ManagedBy": null,
+  "Location": "ukwest",
+  "DiskSizeGB": 64,
+  "Sku": {
+    "Name": "Premium_LRS",
+    "Tier": "Premium"
+  },
+  "TimeCreated": "2025-12-12T14:54:37.1962417Z",
+  "Id": "/subscriptions/f0f3c77b-de97-42d1-ac5e-dea9b16c5e4b/resourceGroups/mate-azure-task-5/providers/Microsoft.Compute/disks/todoapp-data-disk"
+}
